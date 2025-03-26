@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: red;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 24px;
+}
+
+p {
+    color: gray;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#text {
+    color: green;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    border: 2px solid black;
+}
+
+input[type="password"] {
+    border: 2px solid yellow;
+}
