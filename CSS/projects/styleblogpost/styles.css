@@ -1,0 +1,31 @@
+/* best practice always use box-sizing, border-box to avoid sizing issues
+Key-Takeaways:
+-The box model consists of content, border, and margin.
+-Box-sizing: border-box; ensures width and height include padding/border
+-Margins create outer spacing, while padding creates inner spacing.
+-borders wrap around the elements and can have different styles
+-Box shadows add depth for a modern look
+*/
+body {
+    font-family: sans-serif, Arial, Helvetica;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.2);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card h2 {
+    margin-bottom: 2px;
+}
