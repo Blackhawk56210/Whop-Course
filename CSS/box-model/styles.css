@@ -1,0 +1,42 @@
+.box { 
+    /*By default width and height only take up the content area */
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: blanchedalmond
+}
+
+.box-2 { 
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: blanchedalmond
+}
+
+/*padding top right bottom left*/
+.box-3 { 
+    padding: 20px;
+}
+
+/* Border wraps around the content and body*/
+/* border -> border-width: border-style: border-color:*/
+/* border styles -> solid, dash, dotted, double, groove, ridge, inset, outset*/
+.border {
+    border: /*width*/5px /*style*/solid /*color*/black;
+    margin: 30px 10px 5px 30px;
+    border-radius: 15px;
+}
+
+
+/* box-shadow: x-offset, y-offset, blur-radius color  */
+.box-shadow {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid black;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
