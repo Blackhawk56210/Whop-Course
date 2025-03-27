@@ -1,0 +1,12 @@
+/*useful for form accessibility*/
+button:hover {
+    background-color: green;
+}
+
+input:focus {
+    border: 3px solid black;
+}
+
+li:nth-child(odd) {
+    background-color: purple;
+}

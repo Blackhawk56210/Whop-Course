@@ -1,0 +1,11 @@
+.quote::before {
+    content: '"'; /*opening quote*/
+    font-size: 20px;
+    color: grey;
+}
+
+.quote::after {
+    content: '"'; /*closing quote*/
+    font-size: 20px;
+    color: grey;
+}
