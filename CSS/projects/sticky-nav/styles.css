@@ -1,0 +1,32 @@
+/* 
+Best Practice: 
+-Relative-> use for elements that move within a normal flow.
+-Absolute->use inside a positioned parent.
+-Fixed->use for always visible elements (like floating buttons).
+-Sticky->for navigation.
+-Z-index->only when necessary (higher values on top).
+*/
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    height: 200vh;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+    background-color: bisque;
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
