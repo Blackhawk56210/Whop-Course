@@ -1,0 +1,46 @@
+.serif {
+    font-family: "Time New Roman", serif;
+}
+
+.sans-serif {
+    font-family: "Ariel", sans-serif;
+}
+
+.monospace {
+    font-family: "Courier New", monospace;
+}
+
+/* em - Relative to parent element 1 em = 100% */
+/* rem - Relative to the root ( html { font-size: 16px; }) 1rem = 16px */
+/* vw, vh - Relative to viewport width and height*/
+.small {
+    font-size: 12px;
+}
+
+.medium {
+    font-size: 18px;
+}
+
+.large {
+    font-size: 24px;
+}
+
+.relative {
+    font-size: 1.5rem;
+}
+
+.viewport-size{
+    font-size: 5vw;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
