@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Positioning</title>
+</head>
+<!--
+Static(default)-> Normal flow, no positioning.
+Relative->Moves relative to its normal position
+Absolute-> Moves relative to the nearest positioned ancestor
+Fixed->Stays fixed on the screen
+Sticky->Sticks when scrolling pas a point
+-->
+<body>
+    <header class="sticky">I am sticky</header>
+    <p class="static">I am static</p>
+    <div class="fixed">I am fixed</div>
+    <div class="relative">I am relative</div>
+    <div class="parent">
+        <div class="absolute">
+            I am Absolute
+        </div>
+    </div>
+    <div class="box one">box one</div>
+    <div class="box two">box two</div>
+</body>
+</html>
