@@ -1,0 +1,64 @@
+/* rgba(red, green, blue, opacity).values */
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.custom {
+    color: #6604b6;
+}
+
+.bg-light {
+    background-color: gray;
+    padding: 20px;
+}
+
+.bg-dark {
+    background-color: black;
+    padding: 20px;
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.bg-repeat {
+    background-repeat: repeat;
+}
+
+.bg-image {
+    background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSgS9SIbQkC8456FuYAPI4ZgyBIrwkCXQSd7ogjhH1tCbZ9PliKKGLc6TpMyn6m56ARusyGO2hGv3PtO4GV3H7Evw");
+    height: 2000px;
+    background-size: cover;
+    background-position: bottom right;
+}
+
+.bg-position {
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS5rw3PVFz_oMxSSD5ThaICgnZff1JcGnAimm51-zIpc8-dxmFKWYbP78fbWoAGfrnBFTw7akXQXdT4E9wy2Al0-e68ZIBi4fishPPbPg");
+    background-position: center center;
+    height: 500px;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-contain {
+    background-size: contain;
+}
+
+.bg-fixed{
+    background-attachment: fixed;
+}
+
+.gradient {
+    background: linear-gradient(to right, red, blue, green);
+}
