@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: midnightblue;
+}
+
+.pricing {
+    display: flex;
+    gap: 20px;
+}
+
+
+.card {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; 
+    justify-content: space-between;
+}
+
+.card:nth-child(1):before {
+    content: '$85 Legendary';
+    color: wheat;
+    background-color: black;
+}
+
+.card:nth-child(2):before {
+    content: '$55 Elite';
+    color: wheat;
+    background-color: black;
+}
+
+.card:nth-child(3):before {
+    content: '$25 Master';
+    color: wheat;
+    background-color: black;
+}
+
+.card:nth-child(4):before {
+    content: '$5 Student';
+    color: wheat;
+    background-color: black;
+}
+
+.card:nth-child(5):before {
+    content: '$20 Mystery';
+    color: wheat;
+    background-color: black;
+}
+
+#legendary {
+    background-image: url("https://i.pinimg.com/236x/3c/69/83/3c6983080c30e0c6db34110c5f90666d.jpg");
+    height: 300px;
+    width: 200px;
+}
+
+#elite {
+    background-image: url("https://i.pinimg.com/236x/05/02/e7/0502e7a6dfd5f6230f1295f45db20478.jpg");
+    height: 300px;
+    width: 200px;
+}
+
+#master {
+    background-image: url("https://i.pinimg.com/236x/f8/75/f6/f875f6ab07c736fd620b2bf1c6b353cb.jpg");
+    height: 300px;
+    width: 200px;
+}
+
+#student {
+    background-image: url("https://i.pinimg.com/236x/e2/da/61/e2da61c125f02ece00967ac3e8309b8e.jpg");
+    height: 300px;
+    width: 200px;
+}
+
+#mystery {
+    background-image: url("https://i.pinimg.com/236x/ff/3f/0b/ff3f0b5d36644395f16c98fc1cabf59a.jpg");
+    height: 300px;
+    width: 200px;
+}

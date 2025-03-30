@@ -1,0 +1,29 @@
+/* flex-direction */
+.flex-container {
+    display: flex;
+    background-color: gray;
+    padding: 10px;
+    flex-direction: column;
+    /* row -default
+    row-reverse/ column/column -reverse
+    */
+    justify-content: flex-start;
+    /* flex-start-default/ space-between/ space-around/ flex-start/end / center/ space-evenly */
+    height: 200px;
+    align-items: center;
+    /* same as justify but add stretch and baseline */
+    flex: wrap;
+    /* no-wrap by default, wrap, wrap-reverse */
+}
+
+.item {
+    background-color: steelblue;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+}
+
+/* .item:nth-child(2) {
+    align-self: flex-end;
+} */
+
