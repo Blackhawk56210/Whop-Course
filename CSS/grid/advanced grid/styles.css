@@ -1,0 +1,17 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 80px 1fr 60px;
+    grid-template-areas: 
+    "header header"
+    "sidebar content"
+    "footer footer"
+}
+
+.header { grid-area: header; background: lightblue}
+
+.sidebar { grid-area: sidebar; background: lightblue}
+
+.content { grid-area: content; background: wheat}
+
+.footer {grid-area: footer; background: greenyellow}

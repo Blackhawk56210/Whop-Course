@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    background-color: lightgrey;
+    padding: 10px;
+    color: white;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    gap: 20px;
+    justify-items: center; /* start(left), end(right)*/
+    /* align-items: center; */
+    place-items: center; /* place-items-> shorthand for justify, align*/
+}
+
+.item {
+    background-color: steelblue;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+}
+
+.item:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
