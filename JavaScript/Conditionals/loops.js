@@ -32,8 +32,28 @@ while (count <= 5) {
 // User input until correct answer
 let userInput;
 
-while (userInput !== "yes") {
-    userInput = prompt("Type 'yes' to continue");
-}
+//keyword ->)while (condition ->)(userInput !== "yes") 
+// (What it does code block ->){
+//     userInput = prompt("Type 'yes' to continue");
+// }
 
-console.log("You entered 'yes'")
+// console.log("You entered 'yes'")
+
+// do ... while (Executes at least once)
+// they are dangerous if you remove your implementation 0 will never change and you'll be stuck in an infinite loop
+// it executes once before checking the condition
+
+// let number = 0;
+
+// do {
+//      console.log("number =", number);
+//      number++
+// } while (number <= 5);
+
+let num = 0;
+
+do {
+     num = prompt("Enter a number greater than 10:");
+} while(num <= 10)
+
+     console.log("Thank You.");
