@@ -27,9 +27,18 @@ document.body.appendChild(newParagraph);
 
 // ADD / REMOVING / CREATING Class
 
+/*
 const heading = document.getElementById("main-heading");
 heading.classList.add("highlight");
 
 function removeClass() {
     heading.classList.remove("highlight");
 }
+*/
+
+// Modifying attributes
+const link = document.createElement("a");
+link.setAttribute("href", "https://fonts.google.com/");
+link.setAttribute("target", "_blank");
+link.textContent = "Check out these fonts";
+document.body.appendChild(link);
