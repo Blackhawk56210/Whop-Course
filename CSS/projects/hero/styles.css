@@ -25,3 +25,11 @@ body {
 p {
     padding: 20px;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "h1", "p";
+    } 
+}
