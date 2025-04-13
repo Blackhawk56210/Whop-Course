@@ -30,3 +30,20 @@ const display = document.getElementById("displayText");
 input.addEventListener("keyup", function(event) {
     display.textContent = "You typed " + event.target.value;
 })
+
+// Dropdown selection
+
+const dropDown = document.getElementById("dropdown"), //You can declare 2 const using a , 
+output = document.getElementById("output");
+
+dropDown.addEventListener("change", function () {
+    output.textContent = "You Selected: " + dropdown.value;
+});
+
+// Removing event listeners
+function handleClick() {
+    console.log("handle Click");
+    btn.removeEventListener("click", handleClick);
+}
+
+btn.addEventlistener("click", handleClick);
