@@ -43,6 +43,7 @@ fruits.unshift("Mango");
 console.log(fruits); 
 
 // Splice -> add/remove elements
+// splice(element, index, "insert");
 fruits.splice(1, 1, "Peach");
 console.log(fruits); //expected output: ["apple", "Peach", "grape", "cherry", "pineapple"];
 
